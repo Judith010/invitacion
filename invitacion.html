@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Invitación de Cumpleaños</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fde4ec;
+            font-family: 'Quicksand', sans-serif;
+            color: #5e2a4d;
+            margin: 0;
+            padding: 0;
+        }
+
+        .invitacion {
+            background: #fff0f5;
+            max-width: 700px;
+            margin: 50px auto;
+            border-radius: 25px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border: 4px dashed #f7a6c4;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 3em;
+            color: #d63384;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.3em;
+            margin: 10px 0 30px;
+            color: #6c2c58;
+        }
+
+        .ubicacion {
+            font-size: 1.1em;
+            background-color: #ffe1f0;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px auto;
+            display: inline-block;
+        }
+
+        .mensaje-extra {
+            font-size: 1.2em;
+            margin-top: 20px;
+            color: #d63384;
+            font-weight: bold;
+        }
+
+        /* Botón de WhatsApp flotante */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease;
+            z-index: 1000;
+        }
+
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+            background-color: #1ebe5d;
+        }
+
+        .whatsapp-btn img {
+            width: 35px;
+            height: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitacion">
+        <h1>🎉 ¡Feliz Cumpleaños Aylin! 🎂</h1>
+        <p>Estás cordialmente invitado a celebrar un día muy especial con nosotros. ¡Será un momento mágico lleno de alegría!</p>
+
+        <div class="ubicacion">
+            <strong>📍 Ubicación:</strong><br>
+            Quinta<br>
+            Simón Bolívar 511<br>
+            San Nicolás de los Garza
+        </div>
+
+        <div class="mensaje-extra">
+            🩱 ¡No olvides traer tu traje de baño!
+        </div>
+    </div>
+
+    <!-- Botón de WhatsApp -->
+    <a class="whatsapp-btn" 
+       href="https://wa.me/528116352668S?text=Hola%2C%20confirmo%20mi%20asistencia%20al%20cumpleaños%20de%20Aylin" 
+       target="_blank" 
+       title="Confirmar por WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+</body>
+</html>
